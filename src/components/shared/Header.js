@@ -12,7 +12,7 @@ const alwaysOptions = (
 	<>
 		<Nav.Link>
 			<Link to='/' style={linkStyle}>
-				Fun
+				Projects
 			</Link>
 		</Nav.Link>
 	</>

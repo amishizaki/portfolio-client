@@ -7,8 +7,8 @@ const linkStyle = {
 }
 
 	return (
-		<div className='center'>
-			<h1 className='name'>Alina Ishizaki</h1>
+		<div>
+			<h1 class='name'>Alina Ishizaki</h1>
 			<img class='face' src="my-face.png" alt="Alina's smiling face in a rounded frame. She has shoulder length brown hair"/>
 			<p>I am a Full Stack Engineer looking to help the world with thoughtful and intentional coding design.</p>
 			<h6>
@@ -18,11 +18,24 @@ const linkStyle = {
 				<a class='link' href='https://www.linkedin.com/in/alina-ishizaki/' style={linkStyle} >
 					LinkedIn
 				</a>
-				<a class='link' href='https://docs.google.com/document/d/1pvhul8bYS2ro06FOMOzjJSbdX4SgnaQ2iQOgWCZWN-o/edit?usp=sharing' style={linkStyle} >
+				<a class='link' href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' style={linkStyle} >
 					Resume
 				</a>
+
 				
 			</h6>
+
+			<div class='resContainer'>
+				{/* REFUSES TO CENTER */}
+				<iframe 
+					class='resume'
+					src='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub?embedded=true' 
+					frameBorder='0' 
+					border='0' 
+					cellspacing='0'
+				>
+				</iframe>
+			</div>
 		</div>
 	)
 }
