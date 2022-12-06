@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
+
 const linkStyle = {
     color: 'white',
     textDecoration: 'none'
@@ -11,7 +12,7 @@ const alwaysOptions = (
 	<>
 		<Nav.Link>
 			<Link to='/' style={linkStyle}>
-				Projects
+				Fun
 			</Link>
 		</Nav.Link>
 	</>
@@ -27,8 +28,8 @@ const Header = () => (
 		<Navbar.Toggle aria-controls='basic-navbar-nav' />
 		<Navbar.Collapse id='basic-navbar-nav'>
 			<Nav className='ml-auto'>
-				{/* might use this later */}
-				{/* <span className='navbar-text mr-2'></span> */}
+				
+				<span className='navbar-text mr-2'></span>
 
 				{alwaysOptions}
 			</Nav>
