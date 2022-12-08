@@ -43,7 +43,7 @@ const Header = () => (
 				/>
             </Link>
         </Navbar.Brand>
-		<Navbar.Toggle aria-controls='basic-navbar-nav' />
+		{/* <Navbar.Toggle aria-controls='basic-navbar-nav' />
 		<Navbar.Collapse id='basic-navbar-nav'>
 			<Nav className='ml-auto'>
 				
@@ -51,7 +51,7 @@ const Header = () => (
 
 				{alwaysOptions}
 			</Nav>
-		</Navbar.Collapse>
+		</Navbar.Collapse> */}
 	</Navbar>
 )
 
