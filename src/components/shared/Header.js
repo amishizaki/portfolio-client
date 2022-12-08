@@ -2,6 +2,9 @@ import React, { Fragment } from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faDigitalTachograph } from '@fortawesome/free-solid-svg-icons'
+
 
 const linkStyle = {
     color: 'white',
@@ -10,11 +13,21 @@ const linkStyle = {
 
 const alwaysOptions = (
 	<>
-		<Nav.Link>
-			<Link to='/' style={linkStyle}>
-				Projects
-			</Link>
-		</Nav.Link>
+		{/* <Nav.Item className='m-2'>
+				<a href='https://github.com/amishizaki' style={linkStyle}>
+				<FontAwesomeIcon icon={ faDigitalTachograph } />
+				</a>
+		</Nav.Item>
+		<Nav.Item className='m-2'>
+				<a href='https://www.linkedin.com/in/alina-ishizaki/' style={linkStyle} >
+					LinkedIn
+				</a>
+		</Nav.Item> */}
+		<Nav.Item className='m-2'>
+				<a class='link' href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' style={linkStyle} >
+					Resume
+				</a>
+		</Nav.Item>
 	</>
 )
 
@@ -22,7 +35,12 @@ const Header = () => (
 	<Navbar className='container m-2' variant='dark' expand='md'>
 		<Navbar.Brand>
             <Link to='/' style={linkStyle}>
-                Welcome to my Page of Stuff
+                <img
+					src='practice.png'
+					width="50"
+					height="auto"
+					alt={"A black cat"}
+				/>
             </Link>
         </Navbar.Brand>
 		<Navbar.Toggle aria-controls='basic-navbar-nav' />

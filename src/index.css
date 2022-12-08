@@ -20,6 +20,7 @@ h1 {
 
 footer {
   margin-bottom: 20px;
+  margin-top: 400px;
 }
 
 code {
@@ -30,10 +31,11 @@ code {
 .face {
   border-radius: 50%;
   border: 4px transparent;
+  margin: 20px;
+  display: inline-block;
   width: 15em;
   height: 15em;
   object-fit: cover;
-  /* display: block; */
 
 }
 
