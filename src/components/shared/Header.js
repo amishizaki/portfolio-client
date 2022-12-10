@@ -13,16 +13,7 @@ const linkStyle = {
 
 const alwaysOptions = (
 	<>
-		{/* <Nav.Item className='m-2'>
-				<a href='https://github.com/amishizaki' style={linkStyle}>
-				<FontAwesomeIcon icon={ faDigitalTachograph } />
-				</a>
-		</Nav.Item>
-		<Nav.Item className='m-2'>
-				<a href='https://www.linkedin.com/in/alina-ishizaki/' style={linkStyle} >
-					LinkedIn
-				</a>
-		</Nav.Item> */}
+		
 		<Nav.Item className='m-2'>
 				<a class='link' href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' style={linkStyle} >
 					Resume
@@ -36,10 +27,10 @@ const Header = () => (
 		<Navbar.Brand>
             <Link to='/' style={linkStyle}>
                 <img
-					src='practice.png'
+					src='favicon.ico'
 					width="50"
 					height="auto"
-					alt={"A black cat"}
+					alt={"A black cat silhouette in profile."}
 				/>
             </Link>
         </Navbar.Brand>
