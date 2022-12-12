@@ -48,4 +48,30 @@
                 // Bootstrap
 
 
-import React, { Fragment } from 'react'
+import React from 'react'
+import { Card } from 'react-bootstrap'
+
+
+
+const Projects = () => {
+    
+    return (
+        <Card className='projects' >
+            <Card.Img src='favicon.ico' style={{ height: '300px', width: 'auto' }} alt='A preview of the App' />
+            <Card.Header>
+                Project Name
+            </Card.Header>
+            <Card.Body>
+                Project Description
+            </Card.Body>
+            <Card.Footer>
+                Technologies as icons <br/>
+                GitHub Link, Deployed Link
+            </Card.Footer>
+        </Card>
+    )
+
+
+}
+
+export default Projects

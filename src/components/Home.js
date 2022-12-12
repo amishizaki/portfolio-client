@@ -1,3 +1,4 @@
+import Projects from './Projects'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFileLines } from '@fortawesome/free-solid-svg-icons'
@@ -11,8 +12,8 @@ const linkStyle = {
 }
 
 	return (
-		<div class='container'>
-			<div class='image'>
+		<div className='container'>
+			<div className='image'>
 				<img class='face' src="my-face.png" alt="Alina's smiling face in a rounded frame. She has shoulder length brown hair"/>
 			</div>
 
@@ -29,6 +30,8 @@ const linkStyle = {
 				</a>
 				<p>I am a Full Stack Engineer looking to help the world with thoughtful and intentional coding design.</p>
 			</div>
+
+			<Projects />
 			
 			{/* <div class='resContainer'>
 				{/* REFUSES TO CENTER */}

@@ -40,7 +40,7 @@ code {
 }
 
 .container {
-  display: flex;
+  /* display: block; */
   align-items: center;
   /* justify-content: center */
 }
@@ -79,3 +79,11 @@ code {
   display: table-cell;
 } */
 
+.projects {
+  display: block;
+  background-color: brown;
+  width: '30rem';
+  margin: 8;
+}
+
+/* style={{ width: '30rem', margin: 8, backgroundColor: '#f2f6ec'}} */
