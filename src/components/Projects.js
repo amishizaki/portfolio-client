@@ -75,7 +75,7 @@ const Projects = () => {
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project4']} alt='A preview of the iGarden App' />
                 <Card.Header>
-                    Project Name
+                    Pawsitters
                 </Card.Header>
                 <Card.Body>
                     <p>
