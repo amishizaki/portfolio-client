@@ -25,11 +25,11 @@ const alwaysOptions = (
 					Resume
 				</a>
 		</Nav.Item>
-		<Nav.Item className='m-2'>
+		{/* <Nav.Item className='m-2'>
 				<Link to='#projects' style={linkStyle} >
 					Projects
 				</Link>
-		</Nav.Item>
+		</Nav.Item> */}
 	</>
 )
 
