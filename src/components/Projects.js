@@ -13,9 +13,9 @@ const Projects = () => {
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project2']} alt='A preview of the iGarden App' />
                 <Card.Header>
-                    <h1>
+                    <h2>
                         iGarden
-                    </h1>
+                    </h2>
                 </Card.Header>
                 <Card.Body>
                 <p>
@@ -41,9 +41,9 @@ const Projects = () => {
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project3']} alt='A preview of the The Good Avocado App' />
                 <Card.Header>
-                    <h1>
+                    <h2>
                         The Good Avocado
-                    </h1>
+                    </h2>
                 </Card.Header>
                 <Card.Body>
                     <p>
@@ -75,7 +75,9 @@ const Projects = () => {
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project4']} alt='A preview of the iGarden App' />
                 <Card.Header>
-                    Pawsitters
+                    <h2>
+                        Pawsitters
+                    </h2>
                 </Card.Header>
                 <Card.Body>
                     <p>
@@ -124,46 +126,3 @@ export default Projects
                 // HTML
                 // CSS
                 // JS
-
-// iGarden
-// deployed: https://polished-wind-3193.fly.dev/ 
-// gitHub: https://github.com/amishizaki/i-garden
-// technologies: 
-                // HTML
-                // CSS
-                // JS
-                // MongoDB
-                // Mongoose
-                // Liquid
-                // Bootstrap
-
-// The Good Avocado
-// deployed: https://thegoodavocado.netlify.app/
-// gitHub - BackEnd: https://github.com/amishizaki/Api-theGoodAvocado
-// gitHub - FrontEnd https://github.com/amishizaki/Client-theGoodAvocado
-// technologies:
-                // HTML5
-                // CSS
-                // JavaScript
-                // Python
-                // React
-                // Mongoose
-                // Express
-                // Node.js
-                // MongoDB
-                // Bootstrap
-
-
-// Pawsitters
-// deployed: (pending)
-// gitHub - BackEnd: https://github.com/amishizaki/django-pawsitters
-// gitHub - FrontEnd: https://github.com/amishizaki/react-pawsitters
-// technologies: 
-                // HTML5
-                // CSS
-                // JavaScript
-                // Python
-                // React
-                // Django
-                // PostgreSQL
-                // Bootstrap
