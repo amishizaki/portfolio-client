@@ -26,7 +26,7 @@ const alwaysOptions = (
 				</a>
 		</Nav.Item>
 		<Nav.Item className='m-2'>
-				<Link to='/projects' style={linkStyle} >
+				<Link to='#projects' style={linkStyle} >
 					Projects
 				</Link>
 		</Nav.Item>

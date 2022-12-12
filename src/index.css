@@ -80,10 +80,20 @@ code {
 } */
 
 .projects {
-  display: block;
-  background-color: brown;
+  display: inline-block;
+  background-color: gray;
   width: '30rem';
-  margin: 8;
+  margin: 10px;
 }
 
-/* style={{ width: '30rem', margin: 8, backgroundColor: '#f2f6ec'}} */
+.icon {
+  margin: 5px;
+  height: 25px;
+}
+
+.icon-link {
+  margin: 5px;
+  text-decoration: 'none';
+  color:rgb(52, 52, 52);
+  height: 50px;
+}
