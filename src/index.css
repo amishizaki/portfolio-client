@@ -12,10 +12,10 @@ body {
 
 h1 {
   font-size: 50px;
-  text-shadow: -1px 1px 1px rgb(52, 52, 52),
+  /* text-shadow: -1px 1px 1px rgb(52, 52, 52),
     1px 1px 1px rgb(52, 52, 52),
     1px -1px 0 rgb(52, 52, 52),
-    -1px -1px 0 rgb(52, 52, 52);
+    -1px -1px 0 rgb(52, 52, 52); */
 }
 
 footer {
@@ -30,7 +30,7 @@ code {
 
 .face {
   border-radius: 50%;
-  border: 4px groove rgb(52, 52, 52);
+  /* border: 4px groove rgb(52, 52, 52); */
   margin: 20px;
   display: inline-block;
   width: 15em;
