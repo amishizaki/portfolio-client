@@ -10,6 +10,9 @@ const Projects = () => {
     
     return (
         <>
+            <h2>
+                Projects
+            </h2>
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project2']} alt='A preview of the iGarden App' />
                 <Card.Header>

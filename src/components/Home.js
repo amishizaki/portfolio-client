@@ -31,7 +31,7 @@ const linkStyle = {
 				</a>
 				<p>I am a Full Stack Engineer looking to help the world with thoughtful and intentional coding design.</p>
 			</div>
-
+			
 			<Projects />
 			
 			
