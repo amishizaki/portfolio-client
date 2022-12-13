@@ -20,7 +20,7 @@ h1 {
 
 footer {
   margin-bottom: 20px;
-  margin-top: 400px;
+  margin-top: 100px;
 }
 
 code {
@@ -39,21 +39,22 @@ code {
 
 }
 
-.container {
-  /* display: block; */
-  align-items: center;
-  /* justify-content: center */
+.intro {
+  display: -webkit-inline-flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
-/* .image { */
-  /* display: inline-block; */
-  /* flex-basis: 40%; */
-  /* width: 50%; */
-/* } */
+.image {
+  display: inline-block; 
+  flex-basis: 40%;
+  width: 50%;
+}
 
 .text {
   display: inline-block;
-  /* font-size: 20px; */
+  font-size: 20px;
+  justify-content: center;
   /* padding-left: 20px; */
   width: 50%;
 }
@@ -79,11 +80,18 @@ code {
   display: table-cell;
 } */
 
+hr {
+  justify-content: center;
+  margin: 50px;
+
+}
+
 .projects {
   display: inline-block;
   background-color: gray;
+  justify-content: center;
   width: '30rem';
-  margin: 10px;
+  margin: 50px;
 }
 
 .icon {
