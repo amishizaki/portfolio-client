@@ -12,7 +12,7 @@ const Projects = () => {
         <>
             <hr/>
             <h2>
-                Recent Projects
+                Recent Project Highlights
             </h2>
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project2']} alt='A preview of the iGarden App' />
@@ -34,11 +34,11 @@ const Projects = () => {
                     <FontAwesomeIcon className='icon' icon={ faNode } />
                     <FontAwesomeIcon className='icon' icon={ faBootstrap } />
                     <br/>
-                    <a href='https://github.com/amishizaki/i-garden'>
-                        <FontAwesomeIcon className='icon-link' icon={ faGithub } />
+                    <a href='https://github.com/amishizaki/i-garden' className='icon-link'>
+                        Code <FontAwesomeIcon icon={ faGithub } />
                     </a>
-                    <a href='https://polished-wind-3193.fly.dev/'>
-                        <FontAwesomeIcon className='icon-link' icon={ faLeaf } />
+                    <a href='https://polished-wind-3193.fly.dev/' className='icon-link'>
+                        Live Demo<FontAwesomeIcon icon={ faLeaf } />
                     </a>
                 </Card.Footer>
             </Card>
@@ -64,15 +64,14 @@ const Projects = () => {
                     <FontAwesomeIcon className='icon' icon={ faBootstrap } />
                     <br/>
                     <a href='https://github.com/amishizaki/Api-theGoodAvocado' className='icon-link'>
-                        <FontAwesomeIcon className='icon-link' icon={ faGithub } />
-                        BackEnd
+                        BackEnd <FontAwesomeIcon icon={ faGithub } />
                     </a>
                     <a href='https://github.com/amishizaki/Client-theGoodAvocado' className='icon-link'>
-                        <FontAwesomeIcon className='icon-link' icon={ faGithub } />
-                        FrontEnd
+                        FrontEnd <FontAwesomeIcon icon={ faGithub } />
+                        
                     </a>
-                    <a href='https://thegoodavocado.netlify.app/'>
-                        <FontAwesomeIcon className='icon-link' icon={ faBuilding } />
+                    <a href='https://thegoodavocado.netlify.app/' className='icon-link'>
+                        Live Demo <FontAwesomeIcon icon={ faBuilding } />
                     </a>
                 </Card.Footer>
             </Card>
@@ -98,16 +97,16 @@ const Projects = () => {
                     <br/>
                     
                     <a href='https://github.com/amishizaki/django-pawsitters' className='icon-link'>
-                        <FontAwesomeIcon className='icon-link' icon={ faGithub } />
                         BackEnd
+                        <FontAwesomeIcon icon={ faGithub } />
                     </a>
                     <a href='https://github.com/amishizaki/react-pawsitters' className='icon-link'>
-                        <FontAwesomeIcon className='icon-link' icon={ faGithub } />
                         FrontEnd
+                        <FontAwesomeIcon icon={ faGithub } />
                     </a>
                     <a href='' className='icon-link'>
-                        <FontAwesomeIcon className='icon-link' icon={ faDog } />
-                        (deployment pending)
+                        (Demo coming soon)
+                        <FontAwesomeIcon icon={ faDog } />
                     </a>
                     <br/>
                 </Card.Footer>
