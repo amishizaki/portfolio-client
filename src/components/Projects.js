@@ -10,6 +10,7 @@ const Projects = () => {
     
     return (
         <>
+        <hr></hr>
             <h2>
                 Projects
             </h2>
