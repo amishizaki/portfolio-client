@@ -41,7 +41,7 @@ code {
 
 .intro {
   display: -webkit-inline-flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
 }
 
