@@ -30,8 +30,8 @@ const linkStyle = {
 					<a class='link' href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' style={linkStyle} >
 						<FontAwesomeIcon icon={ faFileLines } alt='A file icon' />
 					</a>
-					<p>I am a Full Stack Engineer looking to help the world with thoughtful and intentional coding design. <br/>
-					With an origin in the Theater, I have a passion for artful story-telling through design. Back End design and Front End Design are both important to me as they both contribute equally to the whole. 
+					<p>I am a Boston based Full Stack Engineer looking to help the world with thoughtful and intentional coding design. 
+					
 					</p>
 				</div>
 			</div>

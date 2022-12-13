@@ -90,7 +90,7 @@ hr {
   display: inline-block;
   background-color: gray;
   justify-content: center;
-  width: '30rem';
+  max-width: 40rem;
   margin: 50px;
 }
 
