@@ -31,7 +31,7 @@ const linkStyle = {
 						<FontAwesomeIcon icon={ faFileLines } alt='A file icon' />
 					</a>
 					<p>I am a Full Stack Engineer looking to help the world with thoughtful and intentional coding design. <br/>
-					With an origin in the Theater, I have a passion for artful story-telling. 
+					With an origin in the Theater, I have a passion for artful story-telling through design. Back End design and Front End Design are both important to me as they both contribute equally to the whole. 
 					</p>
 				</div>
 			</div>
