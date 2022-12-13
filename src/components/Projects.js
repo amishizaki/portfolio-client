@@ -10,7 +10,7 @@ const Projects = () => {
     
     return (
         <>
-        <hr></hr>
+            <hr/>
             <h2>
                 Projects
             </h2>
