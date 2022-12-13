@@ -12,7 +12,7 @@ const Projects = () => {
         <>
             <hr/>
             <h2>
-                Projects
+                Recent Projects
             </h2>
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project2']} alt='A preview of the iGarden App' />
@@ -23,7 +23,7 @@ const Projects = () => {
                 </Card.Header>
                 <Card.Body>
                 <p>
-                    Ever wondered how to grow stuff? Me too! This app will help us both accomplish that. This app will show various plants and the conditions they need to thrive. Plants include herbs, flowers, vegetables, and fruits! Users can explore plants listed on the app and favorite them along the way.
+                    Ever wondered how to grow stuff? Me too! This Application will help us both accomplish that. This Application is designed to allow users to explore many different plants and the conditions they need to thrive. Plants include herbs, flowers, vegetables, and fruits! Each plant has a page that users can add comments to. Users can also add a plant to their own list of favorites. If a plant is missing from the list, a user can add that new plant. The intended audience is for anyone who is curious about Gardening or is already a professional Gardner.
                 </p>
                 </Card.Body>
                 <Card.Footer>
