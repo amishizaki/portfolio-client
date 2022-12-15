@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import { Card, Button } from 'react-bootstrap'
+import { Card, Button, Form } from 'react-bootstrap'
 
 const Contact = () => {
 const form = useRef();
@@ -17,24 +17,23 @@ const form = useRef();
   };
 
   return (
-    <Card className='container-sm d-flex justify-content-between' style={{ backgroundColor: '#34426A', maxWidth: '40em' }}>
-        <Card.Header>
+    <Card className='contact container-sm d-flex justify-content-between'>
+        <Card.Title>
             <h3>
-                Contact Me!
+                Contact Me
             </h3>
-        </Card.Header>
+        </Card.Title>
         <Card.Body>
             <div>
-                <form ref={form} onSubmit={sendEmail}>
-                    <label className='label'><b>Name:</b></label>
-                    <input type="text" name="user_name" /><br/>
-                    <label className='label'><b>Email:</b></label>
-                    <input type="email" name="user_email" /><br/>
-                    <label className='label'><b>Message:</b></label>
-                    <textarea name="message" /><br/>
+                <Form ref={form} onSubmit={sendEmail}>
+                    <input classname='contact' type="text" name="user_name" placeholder='Full Name' /><br/>
+                    <input classname='contact' type="email" name="user_email" placeholder='Your Email' /><br/>
+                    <textarea classname='contact' name="message" placeholder='Type your message here' /><br/>
                     
-                    <input type="submit" value="Send" />
-                </form>
+                    <Button type="submit">
+                        Send Message
+                    </Button>
+                </Form>
             </div>
             
         </Card.Body>

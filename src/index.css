@@ -105,8 +105,10 @@ hr {
   color:rgb(52, 52, 52);
   height: 50px;
 }
-
-.label {
-  display: block;
-  margin: 10px;
+ 
+.contact {
+  display: inline;
+  margin: 200px;
+  background-color: #34426A;
+  max-width: 40em;
 }
