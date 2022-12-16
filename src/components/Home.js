@@ -1,5 +1,6 @@
 import Projects from './Projects'
 import Contact from './Contact'
+import Skills from './Skills'
 
 const Home = (props) => {
 	console.log('props in home', props)
@@ -26,7 +27,9 @@ const linkStyle = {
 				</div>
 			</div>
 		
-			
+			<hr />
+			<Skills />
+			<hr />
 			<Projects />
 			<hr/>
 			<Contact/>

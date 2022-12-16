@@ -3,29 +3,31 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFileLines } from '@fortawesome/free-solid-svg-icons'
 
 const linkStyle = {
     color: '#18191A',
     textDecoration: 'none',
+	height: '50px',
+
 }
 
 const alwaysOptions = (
 	<>
 		<Nav.Item className='m-2'>
-				<a href='https://github.com/amishizaki' style={linkStyle}>
-					<FontAwesomeIcon icon={ faGithub } alt='GitHub icon' size='lg' />
+				<a href='https://github.com/amishizaki'>
+					<FontAwesomeIcon icon={ faSquareGithub } alt='GitHub icon' size='lg' className='nav-icon'/>
 				</a>
 		</Nav.Item>
 		<Nav.Item className='m-2'>
-				<a href='https://www.linkedin.com/in/alina-ishizaki/' style={linkStyle} >
-					<FontAwesomeIcon icon={ faLinkedin } alt='LinkedIn icon' size='lg' />
+				<a href='https://www.linkedin.com/in/alina-ishizaki/' >
+					<FontAwesomeIcon icon={ faLinkedin } alt='LinkedIn icon' size='lg' className='nav-icon'/>
 				</a>
 		</Nav.Item>
 		<Nav.Item className='m-2'>
-				<a href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' style={linkStyle} >
-					<FontAwesomeIcon icon={ faFileLines } alt='A file icon' size='lg' />
+				<a href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' >
+					<FontAwesomeIcon icon={ faFileLines } alt='A file icon' size='lg' className='nav-icon'/>
 				</a>
 		</Nav.Item>
 		{/* <Nav.Item className='m-2'>

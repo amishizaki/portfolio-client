@@ -12,10 +12,10 @@ body {
 
 h1 {
   font-size: 50px;
-  /* text-shadow: -1px 1px 1px rgb(52, 52, 52),
-    1px 1px 1px rgb(52, 52, 52),
-    1px -1px 0 rgb(52, 52, 52),
-    -1px -1px 0 rgb(52, 52, 52); */
+  /* text-shadow: -1px 1px 1px #18191A,
+    1px 1px 1px #18191A,
+    1px -1px 0 #18191A,
+    -1px -1px 0 #18191A; */
 }
 
 footer {
@@ -83,6 +83,7 @@ code {
 hr {
   justify-content: center;
   margin: 50px;
+  color:#18191A;
 
 }
 
@@ -96,7 +97,13 @@ hr {
 
 .icon {
   margin: 5px;
-  height: 25px;
+  height: 40px;
+}
+
+.nav-icon {
+  color: #18191A;
+  text-decoration: none;
+	height: 40px;
 }
 
 .icon-link {
