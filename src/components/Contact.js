@@ -26,11 +26,30 @@ const form = useRef();
         <Card.Body>
             <div>
                 <Form ref={form} onSubmit={sendEmail}>
-                    <input classname='contact' type="text" name="user_name" placeholder='Full Name' /><br/>
-                    <input classname='contact' type="email" name="user_email" placeholder='Your Email' /><br/>
-                    <textarea classname='contact' name="message" placeholder='Type your message here' /><br/>
+                    <Form.Control 
+                        className='details' 
+                        type="text" 
+                        name="user_name" 
+                        placeholder='Full Name' 
+                    />
+                    <br/>
+                    <Form.Control 
+                        className='details' 
+                        type="email" 
+                        name="user_email" placeholder='Your Email' 
+                    />
+                    <br/>
+                    <Form.Control 
+                        className='note' 
+                        name="message" 
+                        type='textbox'
+                        as="textarea"
+                        rows={3}
+                        placeholder='Type your message here' 
+                    />
+                    <br/>
                     
-                    <Button type="submit">
+                    <Button type="submit" variant='outline-light' className='mt-2' >
                         Send Message
                     </Button>
                 </Form>
@@ -43,3 +62,5 @@ const form = useRef();
 }
 
 export default Contact
+
+// style={{ width: '30em', height: 'auto' }}
