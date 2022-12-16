@@ -10,7 +10,6 @@ const Projects = () => {
     
     return (
         <>
-            <hr/>
             <h2>
                 Recent Project Highlights
             </h2>
