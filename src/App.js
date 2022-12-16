@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 
 import Header from './components/shared/Header'
 import Home from './components/Home'
+import SideNav from './components/shared/SideNav'
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
 		return (
 			<Fragment>
 				<Header />
+				{/* <SideNav /> */}
 				<Routes>
 					<Route path='/' element={<Home />} />
 

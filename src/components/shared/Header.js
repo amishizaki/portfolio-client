@@ -7,7 +7,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFileLines } from '@fortawesome/free-solid-svg-icons'
 
 const linkStyle = {
-    color: 'white',
+    color: '#18191A',
     textDecoration: 'none',
 }
 
@@ -24,7 +24,7 @@ const alwaysOptions = (
 				</a>
 		</Nav.Item>
 		<Nav.Item className='m-2'>
-				<a class='link' href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' style={linkStyle} >
+				<a href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' style={linkStyle} >
 					<FontAwesomeIcon icon={ faFileLines } alt='A file icon' size='lg' />
 				</a>
 		</Nav.Item>
