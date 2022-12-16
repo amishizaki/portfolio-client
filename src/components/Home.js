@@ -28,6 +28,7 @@ const linkStyle = {
 		
 			
 			<Projects />
+			<hr/>
 			<Contact/>
 			
 		</div>

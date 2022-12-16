@@ -105,3 +105,46 @@ hr {
   color:rgb(52, 52, 52);
   height: 50px;
 }
+ 
+.contact {
+  display: -webkit-inline-box;
+  align-items: center;
+  justify-content: center;
+  background-color: #34426A;
+  max-width: 40em;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.details {
+  display: inline-block;
+  margin: 10px;
+  width: 30em;
+  
+}
+
+.note {
+  display: inline-block;
+  margin: 10px;
+  width: 30em;
+  /* height: 200px; */
+}
+
+.note::placeholder, .details::placeholder {
+  font-weight: bold;
+  opacity: .8;
+  color:rgb(52, 93, 106)
+}
+
+/* .note::placeholder {
+  position: relative;
+  top: 0; 
+  /* vertical-align: text-top;
+} */
+
+Button {
+  margin: 20px;
+}
+
