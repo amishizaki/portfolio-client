@@ -101,7 +101,8 @@ hr {
 }
 
 .nav-icon {
-  color: #18191A;
+  color: white;
+  opacity: .65;
   text-decoration: none;
 	height: 40px;
 }
