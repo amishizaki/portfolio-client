@@ -118,18 +118,10 @@ h3 {
   margin-top: 30px;
 }
 
-.details {
+.details, .note {
   display: inline-block;
   margin: 10px;
-  width: 30em;
-  
-}
-
-.note {
-  display: inline-block;
-  margin: 10px;
-  width: 30em;
-  /* height: 200px; */
+  width: 30em; 
 }
 
 .note::placeholder, .details::placeholder {
@@ -137,12 +129,6 @@ h3 {
   opacity: .8;
   color:rgb(52, 93, 106)
 }
-
-/* .note::placeholder {
-  position: relative;
-  top: 0; 
-  /* vertical-align: text-top;
-} */
 
 Button {
   margin: 20px;
