@@ -10,7 +10,7 @@ const linkStyle = {
     color: '#18191A',
     textDecoration: 'none',
 	height: '50px',
-	opacity: '.75',
+	opacity: '.5',
 	marginLeft: '15px'
 }
 

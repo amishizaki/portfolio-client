@@ -16,17 +16,13 @@ const Projects = () => {
             </h2>
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project4']} alt='A preview of the iGarden App' />
-                <Card.Header>
+                <Card.Body>
                     <h2>
                         Pawsitters
                     </h2>
-                </Card.Header>
-                <Card.Body>
                     <p>
                         An App to help pet owners find pet sitters.
                     </p>
-                </Card.Body>
-                <Card.Footer>
                     <FontAwesomeIcon className='icon' icon={ faHtml5 } /> 
                     <FontAwesomeIcon className='icon' icon={ faCss3 } /> 
                     <FontAwesomeIcon className='icon' icon={ faJs } /> 
@@ -48,22 +44,19 @@ const Projects = () => {
                         <FontAwesomeIcon icon={ faDog } />
                     </a>
                     <br/>
-                </Card.Footer>
+                </Card.Body>
+                
             </Card>
             
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project3']} alt='A preview of the The Good Avocado App' />
-                <Card.Header>
+                <Card.Body>
                     <h2>
                         The Good Avocado
                     </h2>
-                </Card.Header>
-                <Card.Body>
                     <p>
                         A restaurant review App.
                     </p>
-                </Card.Body>
-                <Card.Footer>
                     <FontAwesomeIcon className='icon' icon={ faHtml5 } /> 
                     <FontAwesomeIcon className='icon' icon={ faCss3 } /> 
                     <FontAwesomeIcon className='icon' icon={ faJs } /> 
@@ -82,21 +75,17 @@ const Projects = () => {
                     <a href='https://thegoodavocado.netlify.app/' className='icon-link'>
                         Live Demo <FontAwesomeIcon icon={ faBuilding } />
                     </a>
-                </Card.Footer>
+                </Card.Body>
             </Card>
             <Card className='projects' >
                 <Card.Img className='project-image' src={ProjectImages['Project2']} alt='A preview of the iGarden App' />
-                <Card.Header>
+                <Card.Body>
                     <h2>
                         iGarden
                     </h2>
-                </Card.Header>
-                <Card.Body>
-                <p>
-                    An App to help Gardners - Experts and Beginners.
-                </p>
-                </Card.Body>
-                <Card.Footer>
+                    <p>
+                        An App to help Gardners - Experts and Beginners.
+                    </p>
                     <FontAwesomeIcon className='icon'  icon={ faHtml5 } /> 
                     <FontAwesomeIcon className='icon' icon={ faCss3 } /> 
                     <FontAwesomeIcon className='icon' icon={ faJs } /> 
@@ -110,7 +99,7 @@ const Projects = () => {
                     <a href='https://polished-wind-3193.fly.dev/' className='icon-link'>
                         Live Demo<FontAwesomeIcon icon={ faLeaf } />
                     </a>
-                </Card.Footer>
+                </Card.Body>
             </Card>
 
         </>
