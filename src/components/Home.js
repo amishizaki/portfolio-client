@@ -18,10 +18,11 @@ const linkStyle = {
 					<img class='face' src="my-face.png" alt="Alina's smiling face in a round frame. She has shoulder length brown hair"/>
 				</div>
 
-				<div class='text'>
+				<div className='text'>
 					<h1 class='name'>Alina Ishizaki</h1>
 					
-					<p>Hello, I am a Boston based Full Stack Engineer looking to help the world with thoughtful and intentional coding design. 
+					<p className='desc'>
+						Hello, I am a Boston based Full Stack Engineer looking to help the world with thoughtful and intentional coding design. 
 					
 					</p>
 				</div>
