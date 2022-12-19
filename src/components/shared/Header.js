@@ -9,12 +9,12 @@ import { faFileLines } from '@fortawesome/free-solid-svg-icons'
 const linkStyle = {
     color: '#232323',
     textDecoration: 'none',
-	height: '50px',
-	opacity: '.8',
+	opacity: '.85',
 	marginLeft: '15px',
 	// marginTop: '5px',
 	// display: 'inline-block',
 	position: 'relative',
+	// backgroundColor: 'purple',
 }
 
 const alwaysOptions = (
@@ -51,8 +51,9 @@ const Header = () => (
             <Link to='/' style={linkStyle}>
                 <img
 					src='favicon.ico'
-					width="50"
+					width="75"
 					height="auto"
+					marginTop="0"
 					alt={"A black cat silhouette sitting with an upturned tail, facing right towards the navbar"}
 				/>
             </Link>
