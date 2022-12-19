@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(52, 93, 106);
+  /* background-color: rgb(52, 93, 106); */
+  background: linear-gradient(#6E3144, #B03B37, #C75A48, #EB8947, #FDBB63);
   color: aliceblue;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,10 +13,6 @@ body {
 
 h1 {
   font-size: 50px;
-  /* text-shadow: -1px 1px 1px #18191A,
-    1px 1px 1px #18191A,
-    1px -1px 0 #18191A,
-    -1px -1px 0 #18191A; */
 }
 
 footer {
@@ -95,6 +92,12 @@ hr {
   margin: 50px;
 }
 
+.project-image {
+  height: 40em;
+  width: 40em;
+  object-fit: cover;
+}
+
 .icon {
   margin: 5px;
   height: 40px;
@@ -115,10 +118,10 @@ hr {
 }
  
 .contact {
-  display: -webkit-inline-box;
+  /* display: -webkit-inline-box; */
   align-items: center;
   justify-content: center;
-  background-color: #457B8C;
+  background-color: gray;
   max-width: 40em;
 }
 
@@ -135,7 +138,6 @@ h3 {
 .note::placeholder, .details::placeholder {
   font-weight: bold;
   opacity: .8;
-  color:rgb(52, 93, 106)
 }
 
 Button {
