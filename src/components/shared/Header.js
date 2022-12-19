@@ -7,10 +7,10 @@ import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFileLines } from '@fortawesome/free-solid-svg-icons'
 
 const linkStyle = {
-    color: '#18191A',
+    color: '#232323',
     textDecoration: 'none',
 	height: '50px',
-	opacity: '.5',
+	opacity: '.8',
 	marginLeft: '15px'
 }
 
