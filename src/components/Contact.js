@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import { Card, Button, Form } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
 const form = useRef();
@@ -51,6 +53,7 @@ const form = useRef();
                     
                     <Button type="submit" variant='outline-light' className='mt-2' >
                         Send Message
+                        <FontAwesomeIcon icon={ faPaperPlane } />
                     </Button>
                 </Form>
             </div>

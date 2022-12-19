@@ -1,6 +1,7 @@
 body {
-  background-color: rgb(52, 93, 106);
-  color: aliceblue;
+  /* background-color: rgb(52, 93, 106); */
+  background: linear-gradient(#FFFAF1, #FDF7E9, #FCF4E2);
+  color: #232323;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,10 +13,6 @@ body {
 
 h1 {
   font-size: 50px;
-  /* text-shadow: -1px 1px 1px #18191A,
-    1px 1px 1px #18191A,
-    1px -1px 0 #18191A,
-    -1px -1px 0 #18191A; */
 }
 
 footer {
@@ -89,10 +86,16 @@ hr {
 
 .projects {
   display: inline-block;
-  background-color: gray;
+  background-color: transparent;
   justify-content: center;
   max-width: 40rem;
   margin: 50px;
+}
+
+.project-image {
+  height: 40em;
+  width: 40em;
+  object-fit: cover;
 }
 
 .icon {
@@ -101,16 +104,20 @@ hr {
 }
 
 .nav-icon {
-  color: white;
-  opacity: .65;
+  color: #232323;
+  opacity: .9;
   text-decoration: none;
 	height: 40px;
+}
+
+.nav-icon:hover {
+  color: red;
 }
 
 .icon-link {
   margin: 5px;
   text-decoration: 'none';
-  color:rgb(52, 52, 52);
+  color: #232323;
   height: 50px;
 }
  
@@ -118,7 +125,8 @@ hr {
   display: -webkit-inline-box;
   align-items: center;
   justify-content: center;
-  background-color: #457B8C;
+  background-color: transparent;
+  border: transparent;
   max-width: 40em;
 }
 
@@ -135,7 +143,6 @@ h3 {
 .note::placeholder, .details::placeholder {
   font-weight: bold;
   opacity: .8;
-  color:rgb(52, 93, 106)
 }
 
 Button {
