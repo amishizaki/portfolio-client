@@ -51,7 +51,7 @@ const form = useRef();
                     />
                     <br/>
                     
-                    <Button type="submit" variant='outline-light' className='mt-2' >
+                    <Button type="submit" variant='outline-dark' className='mt-2' >
                         Send Message
                         <FontAwesomeIcon icon={ faPaperPlane } />
                     </Button>
