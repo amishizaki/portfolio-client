@@ -3,6 +3,7 @@ import { Card } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3, faJs, faMdb, faBootstrap, faGithub, faReact, faPython, faNode } from '@fortawesome/free-brands-svg-icons'
 import { faLeaf, faBuilding, faDog } from '@fortawesome/free-solid-svg-icons'
+import { faL } from '@fortawesome/free-solid-svg-icons'
 import ProjectImages from './shared/ProjectImages'
 
 
@@ -156,6 +157,10 @@ const Projects = () => {
                     <div className='node'>
                         <FontAwesomeIcon className='icon' icon={ faNode } size='lg' />
                         <p className='hide'>Node</p>
+                    </div>
+                    <div className='liquidjs'>
+                        <FontAwesomeIcon className='icon' icon={ faL } size='lg' />
+                        <p className='hide'>LiquidJS</p>
                     </div>
                     <br/>
                     <a href='https://github.com/amishizaki/i-garden' className='icon-link'>
