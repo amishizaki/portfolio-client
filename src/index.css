@@ -86,18 +86,26 @@ hr {
   background-color: transparent;
   justify-content: center;
   max-width: 40rem;
+  width: 40rem;
   margin: 50px;
 }
 
 .project-image {
-  height: 40em;
-  width: 40em;
+  height: 40rem;
+  width: 40rem;
   object-fit: cover;
 }
 
-.icon {
+.icon, i {
   margin: 5px;
   height: 40px;
+  width: 40px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.javascript, .html5, .css3, .mongodb, .python, .react, .bootstrap, .node, .liquidjs, .django, .psql {
+  display: inline-block;
 }
 
 .nav-icon {
@@ -110,11 +118,23 @@ hr {
 
 .hide {
   visibility: hidden;
+  font-size: 10px;
 }
     
 .github:hover .hide,
 .linkedin:hover .hide,
-.resumeicon:hover .hide  {
+.resumeicon:hover .hide,
+.javascript:hover .hide,
+.html5:hover .hide,
+.css3:hover .hide,
+.mongodb:hover .hide, 
+.python:hover .hide, 
+.react:hover .hide, 
+.bootstrap:hover .hide, 
+.node:hover .hide, 
+.liquidjs:hover .hide, 
+.django:hover .hide,
+.psql:hover .hide  {
   text-align: center;
   visibility: visible;
 }
@@ -153,4 +173,13 @@ h3 {
 
 Button {
   margin: 20px;
+}
+
+.navtoggle {
+  background-color: #232323;
+  margin-right: auto;
+}
+
+.burger {
+  text-align: center;
 }
