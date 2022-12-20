@@ -23,12 +23,38 @@ const Projects = () => {
                     <p>
                         An App to help pet owners find pet sitters.
                     </p>
-                    <FontAwesomeIcon className='icon' icon={ faHtml5 } /> 
-                    <FontAwesomeIcon className='icon' icon={ faCss3 } /> 
-                    <FontAwesomeIcon className='icon' icon={ faJs } /> 
-                    <FontAwesomeIcon className='icon' icon={ faPython } />
-                    <FontAwesomeIcon className='icon' icon={ faReact } /> 
-                    <FontAwesomeIcon className='icon' icon={ faBootstrap } />
+                    <div className='html5'>
+                        <FontAwesomeIcon className='icon' icon={ faHtml5 } size='lg' /> 
+                        <p className='hide'>HTML5</p>
+                    </div> 
+                    <div className='css3'>
+                        <FontAwesomeIcon className='icon' icon={ faCss3 } size='lg' /> 
+                        <p className='hide'>CSS3</p>
+                    </div>
+                    <div className='javascript'>
+                        <FontAwesomeIcon className='icon' icon={ faJs } size='lg' /> 
+                        <p className='hide'>JavaScript</p>
+                    </div>
+                    <div className='python'>
+                        <FontAwesomeIcon className='icon' icon={ faPython } size='lg' />
+                        <p className='hide'>Python</p>
+                    </div>
+                    <div className='react'>
+                        <FontAwesomeIcon className='icon' icon={ faReact } size='lg' /> 
+                        <p className='hide'>React</p>
+                    </div>
+                    <div className='bootstrap'>
+                        <FontAwesomeIcon className='icon' icon={ faBootstrap } size='lg' />
+                        <p className='hide'>Bootstrap</p>
+                    </div> 
+                    <div className='django'>
+                        <i class="devicon-django-plain"></i>
+                        <p className='hide'>django</p>
+                    </div>
+                    <div className='psql'>
+                        <i class="devicon-postgresql-plain"></i>
+                        <p className='hide'>PostgreSQL</p>
+                    </div>
                     <br/>
                     
                     <a href='https://github.com/amishizaki/django-pawsitters' className='icon-link'>
@@ -57,13 +83,34 @@ const Projects = () => {
                     <p>
                         A restaurant review App.
                     </p>
-                    <FontAwesomeIcon className='icon' icon={ faHtml5 } /> 
-                    <FontAwesomeIcon className='icon' icon={ faCss3 } /> 
-                    <FontAwesomeIcon className='icon' icon={ faJs } /> 
-                    <FontAwesomeIcon className='icon' icon={ faPython } />
-                    <FontAwesomeIcon className='icon' icon={ faReact } />
-                    <FontAwesomeIcon className='icon' icon={ faMdb } />
-                    <FontAwesomeIcon className='icon' icon={ faBootstrap } />
+                    <div className='javascript'>
+                        <FontAwesomeIcon className='icon' icon={ faJs } size='lg' /> 
+                        <p className='hide'>JavaScript</p>
+                    </div>
+                    <div className='html5'>
+                        <FontAwesomeIcon className='icon' icon={ faHtml5 } size='lg' /> 
+                        <p className='hide'>HTML5</p>
+                    </div>
+                    <div className='css3'>
+                        <FontAwesomeIcon className='icon' icon={ faCss3 } size='lg' /> 
+                        <p className='hide'>CSS3</p>
+                    </div>
+                    <div className='python'>
+                        <FontAwesomeIcon className='icon' icon={ faPython } size='lg' />
+                        <p className='hide'>Python</p>
+                    </div>
+                    <div className='react'>
+                        <FontAwesomeIcon className='icon' icon={ faReact } size='lg' /> 
+                        <p className='hide'>React</p>
+                    </div>
+                    <div className='mongodb'>
+                        <i class="devicon-mongodb-plain"></i>
+                        <p className='hide'>MongoDB</p>
+                    </div>
+                    <div className='bootstrap'>
+                        <FontAwesomeIcon className='icon' icon={ faBootstrap } size='lg' />
+                        <p className='hide'>Bootstrap</p>
+                    </div> 
                     <br/>
                     <a href='https://github.com/amishizaki/Api-theGoodAvocado' className='icon-link'>
                         BackEnd <FontAwesomeIcon icon={ faGithub } />
@@ -86,12 +133,30 @@ const Projects = () => {
                     <p>
                         An App to help Gardners - Experts and Beginners.
                     </p>
-                    <FontAwesomeIcon className='icon'  icon={ faHtml5 } /> 
-                    <FontAwesomeIcon className='icon' icon={ faCss3 } /> 
-                    <FontAwesomeIcon className='icon' icon={ faJs } /> 
-                    <FontAwesomeIcon className='icon' icon={ faMdb } /> 
-                    <FontAwesomeIcon className='icon' icon={ faNode } />
-                    <FontAwesomeIcon className='icon' icon={ faBootstrap } />
+                    <div className='javascript'>
+                        <FontAwesomeIcon className='icon' icon={ faJs } size='lg' /> 
+                        <p className='hide'>JavaScript</p>
+                    </div>
+                    <div className='html5'>
+                        <FontAwesomeIcon className='icon' icon={ faHtml5 } size='lg' /> 
+                        <p className='hide'>HTML5</p>
+                    </div>
+                    <div className='css3'>
+                        <FontAwesomeIcon className='icon' icon={ faCss3 } size='lg' /> 
+                        <p className='hide'>CSS3</p>
+                    </div>
+                    <div className='mongodb'>
+                        <i class="devicon-mongodb-plain"></i>
+                        <p className='hide'>MongoDB</p>
+                    </div>
+                    <div className='bootstrap'>
+                        <FontAwesomeIcon className='icon' icon={ faBootstrap } size='lg' />
+                        <p className='hide'>Bootstrap</p>
+                    </div> 
+                    <div className='node'>
+                        <FontAwesomeIcon className='icon' icon={ faNode } size='lg' />
+                        <p className='hide'>Node</p>
+                    </div>
                     <br/>
                     <a href='https://github.com/amishizaki/i-garden' className='icon-link'>
                         Code <FontAwesomeIcon icon={ faGithub } />

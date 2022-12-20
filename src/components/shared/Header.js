@@ -11,10 +11,7 @@ const linkStyle = {
     textDecoration: 'none',
 	opacity: '.85',
 	marginLeft: '15px',
-	// marginTop: '5px',
-	// display: 'inline-block',
 	position: 'relative',
-	// backgroundColor: 'purple',
 }
 
 const alwaysOptions = (
@@ -58,8 +55,8 @@ const Header = () => (
 				/>
             </Link>
         </Navbar.Brand>
-		<Navbar.Toggle aria-controls='basic-navbar-nav' />
-		<Navbar.Collapse id='basic-navbar-nav'>
+		<Navbar.Toggle className='navtoggle' aria-controls='basic-navbar-nav' />
+		<Navbar.Collapse className='burger' bg='dark' id='basic-navbar-nav'>
 			<Nav className='ml-auto'>
 				
 				<span className='navbar-text mr-2'></span>
