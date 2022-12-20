@@ -43,7 +43,7 @@ const Skills = () => {
             </div>
             <div className='liquidjs'>
                 <FontAwesomeIcon className='icon' icon={ faL } size='lg' />
-                <p className='hide'>Liquid JS</p>
+                <p className='hide'>LiquidJS</p>
             </div>
             <div className='django'>
                 <i class="devicon-django-plain"></i>
