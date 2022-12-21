@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  /* background-color: rgb(52, 93, 106); */
   background: linear-gradient(#FFFAF1, #FDF7E9, #FCF4E2);
   color: #232323;
   margin: 0;
@@ -9,6 +12,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  min-width: 90%;
+  height: auto;
+  display: table;
 }
 
 h1 {
