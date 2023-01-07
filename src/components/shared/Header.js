@@ -18,19 +18,19 @@ const alwaysOptions = (
 	<>
 		<Nav.Item className='container m-2 github'>
 				<a href='https://github.com/amishizaki'>
-					<FontAwesomeIcon icon={ faSquareGithub } alt='GitHub icon' size='lg' className='nav-icon'/>
+					<FontAwesomeIcon icon={ faSquareGithub } title='GitHub icon' size='lg' className='nav-icon'/>
 				</a>
 				<p className='hide'>GitHub</p>
 		</Nav.Item>
 		<Nav.Item className='m-2 linkedin'>
 				<a href='https://www.linkedin.com/in/alina-ishizaki/' >
-					<FontAwesomeIcon icon={ faLinkedin } alt='LinkedIn icon' size='lg' className='nav-icon'/>
+					<FontAwesomeIcon icon={ faLinkedin } title='LinkedIn icon' size='lg' className='nav-icon'/>
 				</a>
 				<p className='hide'>LinkedIn</p>
 		</Nav.Item>
 		<Nav.Item className='m-2 resumeicon'>
 				<a href='https://docs.google.com/document/d/e/2PACX-1vQVuIbsm5-qUKNRsam4n9dkPUFlEpyXngtjXKVj_d9QcsqMjzRQrK-gyoNjpPqz_uID9dCf258TTOrE/pub' >
-					<FontAwesomeIcon icon={ faFileLines } alt='A file icon' size='lg' className='nav-icon'/>
+					<FontAwesomeIcon icon={ faFileLines } title='Resume' size='lg' className='nav-icon'/>
 				</a>
 				<p className='hide'>Resume</p>
 		</Nav.Item>
