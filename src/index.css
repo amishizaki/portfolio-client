@@ -72,14 +72,6 @@ code {
   font-size: 30px;
 }
 
-.resume {
-  border-style: none;
-  display: inline-block;
-  margin: auto;
-  width: 100%; 
-  height: 120em;
-}
-
 hr {
   justify-content: center;
   margin: 50px;
@@ -188,4 +180,25 @@ Button {
 
 .burger {
   text-align: center;
+}
+
+/* .cat-intro {
+  text-align: center;
+  width: 40em;
+} */
+
+.cat-card {
+  display: inline-block;
+  background-color: transparent;
+  justify-content: center;
+  max-width: 40rem;
+  width: 40rem;
+  margin: 50px;
+
+}
+
+.cat-img {
+  height: 40em;
+  width: 40em;
+  object-fit: cover;
 }

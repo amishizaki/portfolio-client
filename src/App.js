@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 
 import Header from './components/shared/Header'
 import Home from './components/Home'
+import Jones from './components/Jones'
 import SideNav from './components/shared/SideNav'
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
 				{/* <SideNav /> */}
 				<Routes>
 					<Route path='/' element={<Home />} />
-
+					<Route path='/jones-the-cat' element={<Jones />} />
 				</Routes>
 
 			</Fragment>
