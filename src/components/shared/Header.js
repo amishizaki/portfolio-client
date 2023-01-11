@@ -45,7 +45,7 @@ const alwaysOptions = (
 const Header = () => (
 	<Navbar className='container m-2' variant='dark' expand='md'>
 		<Navbar.Brand>
-            <Link to='/' style={linkStyle}>
+            <Link to='/jones-the-cat' style={linkStyle}>
                 <img
 					src='favicon.ico'
 					width="75"
