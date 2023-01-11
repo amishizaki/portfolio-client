@@ -7,6 +7,8 @@ import { faHome } from '@fortawesome/free-solid-svg-icons'
 const Jones = () => {
     return (
         <div>
+            
+
             <Link to="/" className='link'>
                 <div className='home'>
                     <FontAwesomeIcon className='icon' icon={ faHome } size='lg' /> 
@@ -14,6 +16,16 @@ const Jones = () => {
 
                 </div>
             </Link>
+
+            <hr/>
+            <a href='https://en.wikipedia.org/wiki/Curiosity_killed_the_cat' className='curiosity' target="_blank">
+                <p>
+                    "Curiosity killed the cat, 
+                    <br/>
+                    But satisfaction brought it back."
+                </p>
+            </a>
+            <hr/>
             <h4>
                 Thank you for being curious! This page is devoted to Jones the Cat
             </h4>
@@ -80,15 +92,9 @@ const Jones = () => {
                 />
             </Card>
 
-            <div className='curiosity'>
-                <a href='https://en.wikipedia.org/wiki/Curiosity_killed_the_cat' className='curiosity' target="_blank">
-                    <p>
-                        "Curiosity killed the cat, 
-                        <br/>
-                        But satisfaction brought it back."
-                    </p>
-                </a>
-            </div>
+            
+            
+            
 
         </div>
     )
