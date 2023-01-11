@@ -3,7 +3,6 @@ import Contact from './Contact'
 import Skills from './Skills'
 
 const Home = (props) => {
-	console.log('props in home', props)
 
 const linkStyle = {
 	color: 'rgb(52, 52, 52)',
