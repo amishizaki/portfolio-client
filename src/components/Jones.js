@@ -1,9 +1,19 @@
+import { Link } from 'react-router-dom'
 import { Card } from 'react-bootstrap'
 import JonesImages from "./shared/JonesImages"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 const Jones = () => {
     return (
         <div>
+            <Link to="/" className='link'>
+                <div className='home'>
+                    <FontAwesomeIcon className='icon' icon={ faHome } size='lg' /> 
+    				<p className='hide'>Home</p>
+
+                </div>
+            </Link>
             <h4>
                 Thank you for being curious! This page is devoted to Jones the Cat
             </h4>
@@ -16,7 +26,7 @@ const Jones = () => {
                     Since then, I have watched him grow from a tiny furball of energy to a larger furball of energy.
                 </p>
                 <p className='cat-intro'>
-                    Below are a few snapshots of the delightfully rambunctious life of Jones the Cat.
+                    Below are a few snapshots of the delightfully rambunctious little shadow who lives with me.
                 </p>
                 <br/> 
 
@@ -69,6 +79,16 @@ const Jones = () => {
                     alt='Jones comfortably asleep in his cushy bed.' 
                 />
             </Card>
+
+            <div className='curiosity'>
+                <a href='https://en.wikipedia.org/wiki/Curiosity_killed_the_cat' className='curiosity' target="_blank">
+                    <p>
+                        "Curiosity killed the cat, 
+                        <br/>
+                        But satisfaction brought it back."
+                    </p>
+                </a>
+            </div>
 
         </div>
     )

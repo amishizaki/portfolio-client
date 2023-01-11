@@ -132,7 +132,8 @@ hr {
 .node:hover .hide, 
 .liquidjs:hover .hide, 
 .django:hover .hide,
-.psql:hover .hide  {
+.psql:hover .hide,
+.home:hover .hide  {
   text-align: center;
   visibility: visible;
 }
@@ -182,10 +183,12 @@ Button {
   text-align: center;
 }
 
-/* .cat-intro {
-  text-align: center;
-  width: 40em;
-} */
+.link {
+  offset-position: right;
+  text-decoration: 'none';
+  color: #232323;
+  /* display: inline-flex; */
+}
 
 .cat-card {
   display: inline-block;
@@ -201,4 +204,18 @@ Button {
   height: 40em;
   width: 40em;
   object-fit: cover;
+}
+
+.curiosity {
+  text-decoration: 'none';
+  text-align: center;
+  color: #232323;
+  background-color: red;
+  display: inline;
+  width: 40em;
+  
+}
+
+.curiosity:hover {
+  text-decoration: none;
 }
