@@ -21,7 +21,7 @@ const linkStyle = {
 					<h1 class='name'>Alina Ishizaki</h1>
 					
 					<p className='desc'>
-						Hello, I am a Boston based Full Stack Engineer looking to help the world with thoughtful and intentional coding design. 
+						Hello! I am a Boston based Full Stack Engineer looking to help the world with thoughtful and intentional coding design. 
 					
 					</p>
 				</div>
