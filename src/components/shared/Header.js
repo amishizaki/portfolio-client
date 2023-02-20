@@ -40,6 +40,8 @@ const alwaysOptions = (
 				</a>
 				<p className='hide'>Resume</p>
 		</Nav.Item>
+
+		{/* Will fully develop this later */}
 		{/* <Nav.Item className='m-2'>
 				<Link to='#projects' style={linkStyle} >
 					Projects
@@ -60,6 +62,7 @@ const Header = () => (
 					alt={"A black cat silhouette sitting with an upturned tail, facing right towards the navbar"}
 				/>
             </Link>
+
         </Navbar.Brand>
 		<Navbar.Toggle className='navtoggle' aria-controls='basic-navbar-nav' />
 		<Navbar.Collapse className='burger' bg='dark' id='basic-navbar-nav'>
