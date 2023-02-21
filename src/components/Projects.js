@@ -16,7 +16,7 @@ const Projects = () => {
                 Recent Project Highlights
             </h2>
             <Card className='projects' >
-                <Card.Img className='project-image' src={ProjectImages['Project4']} alt='A preview of the iGarden App' />
+                <Card.Img className='project-image' src={ProjectImages['Project4']} alt='A preview of the Pawsitter app' />
                 <Card.Body>
                     <h2>
                         Pawsitters
@@ -58,15 +58,15 @@ const Projects = () => {
                     </div>
                     <br/>
                     
-                    <a href='https://github.com/amishizaki/django-pawsitters' className='icon-link'>
+                    <a href='https://github.com/amishizaki/django-pawsitters' className='icon-link' target="_blank" >
                         BackEnd
                         <FontAwesomeIcon icon={ faGithub } />
                     </a>
-                    <a href='https://github.com/amishizaki/react-pawsitters' className='icon-link'>
+                    <a href='https://github.com/amishizaki/react-pawsitters' className='icon-link' target="_blank" >
                         FrontEnd
                         <FontAwesomeIcon icon={ faGithub } />
                     </a>
-                    <a href='https://pawsitters.netlify.app/' className='icon-link'>
+                    <a href='https://pawsitters.netlify.app/' className='icon-link' target="_blank" >
                         Live Demo
                         <FontAwesomeIcon icon={ faDog } />
                     </a>
@@ -113,14 +113,14 @@ const Projects = () => {
                         <p className='hide'>Bootstrap</p>
                     </div> 
                     <br/>
-                    <a href='https://github.com/amishizaki/Api-theGoodAvocado' className='icon-link'>
+                    <a href='https://github.com/amishizaki/Api-theGoodAvocado' className='icon-link' target="_blank" >
                         BackEnd <FontAwesomeIcon icon={ faGithub } />
                     </a>
-                    <a href='https://github.com/amishizaki/Client-theGoodAvocado' className='icon-link'>
+                    <a href='https://github.com/amishizaki/Client-theGoodAvocado' className='icon-link' target="_blank" >
                         FrontEnd <FontAwesomeIcon icon={ faGithub } />
                         
                     </a>
-                    <a href='https://thegoodavocado.netlify.app/' className='icon-link'>
+                    <a href='https://thegoodavocado.netlify.app/' className='icon-link' target="_blank" >
                         Live Demo <FontAwesomeIcon icon={ faBuilding } />
                     </a>
                 </Card.Body>
@@ -163,10 +163,10 @@ const Projects = () => {
                         <p className='hide'>LiquidJS</p>
                     </div>
                     <br/>
-                    <a href='https://github.com/amishizaki/i-garden' className='icon-link'>
+                    <a href='https://github.com/amishizaki/i-garden' className='icon-link' target="_blank" >
                         Code <FontAwesomeIcon icon={ faGithub } />
                     </a>
-                    <a href='https://polished-wind-3193.fly.dev/' className='icon-link'>
+                    <a href='https://polished-wind-3193.fly.dev/' className='icon-link' target="_blank" >
                         Live Demo<FontAwesomeIcon icon={ faLeaf } />
                     </a>
                 </Card.Body>
